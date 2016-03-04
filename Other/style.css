@@ -32,7 +32,6 @@ p {font-size: 12px;
 .navigation ul {list-style: none;
     margin: 0;
     padding: 5px 5px;
-    overflow: hidden;
     background-color: #333333;}
 .navigation ul li {float: left;
     border-right: 0.5px solid black;
