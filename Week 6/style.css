@@ -7,14 +7,11 @@ body {
 }
 #logo {
     text-align: left;
-    width: 400px;
+    width: 500px;
 }
 #banner {
     width: 960px;
     padding-top: 1%;
-}
-nav {
-
 }
 ul {
     list-style-type: none;
@@ -33,6 +30,9 @@ ul li a {
 section {
     width: 65%;
     float: left;
+}
+h1, h2, h3, h4 {
+    font-weight: 300;
 }
 #picture2 {
     width: 240px;
