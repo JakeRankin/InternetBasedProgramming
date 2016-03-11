@@ -33,9 +33,7 @@ p {font-size: 12px;
     margin: 0;
     padding: 5px 5px;
     background-color: #333333;}
-.navigation ul li {float: left;
-    border-right: 0.5px solid black;
-    border-left: 0.5px solid black;}
+.navigation ul li {display: inline-block;}
 .navigation ul li:first-child {border-left: none;}
 .navigation ul li:last-child {border-right: none;}
 .navigation ul li a {display: block;
