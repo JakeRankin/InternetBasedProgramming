@@ -1,20 +1,23 @@
 body {font-family: Verdana;
     background-color: #4d4d4d;
     color: lightsteelblue;
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;}
 
 a {text-decoration: none;
     color: lightsteelblue;}
 
 h1 {font-size: 48px;
-    text-align: left;}
+    text-align: left;
+    padding-top: 15px;}
 
 h2 {font-size: 24px;
     text-align: left;
-    padding-left: 15px;}
+    padding-bottom: 15px;
+    padding-left: 15px;
+    border-bottom: solid 2px black}
 
 h3 {font-size: 18px;
     padding-bottom: 15px;
