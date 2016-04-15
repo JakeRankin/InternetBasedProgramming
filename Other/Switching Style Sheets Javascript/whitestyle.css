@@ -1,0 +1,14 @@
+body {
+    font-family: Verdana;
+    background-color: #4d4d4d;
+    color: lightsteelblue;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+h1 {
+    font-size: 48px;
+    text-align: left;
+    padding-top: 15px;
+}

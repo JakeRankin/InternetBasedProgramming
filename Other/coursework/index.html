@@ -3,34 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <title>Jake Rankin</title>
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="alternate stylesheet" type="text/css" title="NightMode" href="assets/night.css">
+    <link rel="stylesheet" type="text/css" title="DayMode" href="assets/day.css">
     <link rel="stylesheet" href="assets/unsemantic-grid-responsive-tablet.css">
     <script type="text/javascript" src="assets/themes.js"></script>
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"/>
 </head>
-<body id="theme">
-<button id="whitebutton" type="button" onclick="whitetheme()">White</button>
-<button id="greybutton" type="button" onclick="greytheme()">Grey</button>
+<body onload="set_style_from_cookie()">
+<button id="nightbutton" name="theme" type="button" onclick="switch_style('NightMode');return false;" title="Night Mode">Night</button>
+<button id="daybutton" name="theme" type="button" onclick="switch_style('DayMode');return false;" title="Day Mode">Day</button>
 
 <!-- The tags <header>, <main>, and <footer> split the html into sections -->
 
 <header>
     <!-- Website Title -->
-    <h1><a href="index.html">Jake Rankin</a></h1>
+    <h1 title="Home Page"><a href="index.html">Jake Rankin</a></h1>
     <br>
     <!-- Navigation Bar -->
     <nav class="navigation">
         <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Career & Education</a></li>
-            <li><a href="#">Hobbies & Interests</a></li>
-            <li><a href="#">Contact Information</a></li>
+            <li id="aboutlink" title="About"><a href="#">About</a></li>
+            <li id="careerlink" title="Career & Education"><a href="#">Career & Education</a></li>
+            <li id="hobbieslink" title="Hobbies & Interests"><a href="#">Hobbies & Interests</a></li>
+            <li id="contactlink" title="Contact & Information"><a href="#">Contact Information</a></li>
         </ul>
     </nav>
 </header>
 <!-- <br> adds spacing between the <header>, <main>, and <footer> -->
 <br>
-<main class="grid-container">
+<main class="grid-container" >
     <section class="section1">
         <article id="article1">
             <h2>Upcoming Events</h2>
@@ -39,7 +40,8 @@
         <br>
         <article id="article1">
             <h3>Recent Events</h3>
-            <p></p>
+            <p>In March I competed in the north of Scotland bagpipe quartets competition with Buchan pipeband. This competition took place at
+            Gordon Schools in Huntly, where there were around 60 entries to the competition.</p>
         </article>
     </section>
 </main>

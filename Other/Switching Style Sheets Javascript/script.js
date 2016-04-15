@@ -1,6 +1,6 @@
-var style_cookie_name = "style" ;
+var style_cookie_name = "stylesheets" ;
 var style_cookie_duration = 30 ;
-var style_domain = "Jake" ;
+var style_domain = "Jake";
 
 function switch_style ( css_title )
 {
