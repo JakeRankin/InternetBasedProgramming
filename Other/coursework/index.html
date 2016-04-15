@@ -5,10 +5,15 @@
     <title>Jake Rankin</title>
     <link rel="stylesheet" type="text/css" href="assets/style.css">
     <link rel="stylesheet" href="assets/unsemantic-grid-responsive-tablet.css">
+    <script type="text/javascript" src="assets/themes.js"></script>
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"/>
 </head>
-<body>
+<body id="theme">
+<button id="whitebutton" type="button" onclick="whitetheme()">White</button>
+<button id="greybutton" type="button" onclick="greytheme()">Grey</button>
+
 <!-- The tags <header>, <main>, and <footer> split the html into sections -->
+
 <header>
     <!-- Website Title -->
     <h1><a href="index.html">Jake Rankin</a></h1>
@@ -16,10 +21,10 @@
     <!-- Navigation Bar -->
     <nav class="navigation">
         <ul>
-            <li><a href="about.html">About</a></li>
-            <li><a href="career&education.html">Career & Education</a></li>
-            <li><a href="hobbies&interests.html">Hobbies & Interests</a></li>
-            <li><a href="contactinformation.html">Contact Information</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Career & Education</a></li>
+            <li><a href="#">Hobbies & Interests</a></li>
+            <li><a href="#">Contact Information</a></li>
         </ul>
     </nav>
 </header>
@@ -28,7 +33,13 @@
 <main class="grid-container">
     <section class="section1">
         <article id="article1">
-            <h2>About Jake</h2>
+            <h2>Upcoming Events</h2>
+            <p></p>
+        </article>
+        <br>
+        <article id="article1">
+            <h3>Recent Events</h3>
+            <p></p>
         </article>
     </section>
 </main>
@@ -40,5 +51,6 @@
         </article>
     </section>
 </footer>
+
 </body>
 </html>

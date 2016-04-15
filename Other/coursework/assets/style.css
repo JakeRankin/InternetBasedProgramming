@@ -4,7 +4,28 @@ body {font-family: Verdana;
     max-width: 900px;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;}
+    text-align: center;
+}
+
+#whitebutton {
+    float: right;
+    background-color: white;
+    border: solid 1px black;
+    color: red;
+}
+#greybutton {
+    float: right;
+    background-color: #4d4d4d;
+    border: solid 1px black;
+    color: lightsteelblue;
+}
+
+#button2 {
+    float: right;
+    background-color: #4d4d4d;
+    border: solid 1px black;
+    color: lightsteelblue;
+}
 
 a {text-decoration: none;
     color: lightsteelblue;}
